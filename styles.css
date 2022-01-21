@@ -1,0 +1,29 @@
+.nav-container {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    background: #1f2937;
+ }
+ 
+ /* this selector selects all divs inside of .flex-container */
+ .nav-container .content {
+   display: flex;
+   justify-content: center;
+ }
+
+ .nav-link-1, .nav-link-2, .nav-link-3, .content {
+     flex: 1;
+ }
+
+ .nav-container .content h3 {
+     font-size: 24px;
+     color: #F9FAF8;
+ }
+
+ .nav-container .content a {
+     display: inline-block;
+     font-size: 18px;
+     text-decoration: none;
+     color: #E5E7EB;
+ }
+
